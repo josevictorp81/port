@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>José Victor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">José Victor</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#experience">Tecnologias</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">José Victor</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Tecnologias</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile.png" alt="Profile" />
+      </div>
+      <div class="section__text">
+        <!-- <p class="section__text__p1">Hello, I'm</p> -->
+        <h1 class="title">José Victor</h1>
+        <p class="section__text__p2">Desenvolvedor Fullstack</p>
+        <div class="description">
+          <p class="">
+            Tenho 26 anos, formado em Ciência da Computação, programo desde quando entrei na universidade, com proficiência nas linguagens python e JavaScript/Typescript, neste período desenvolvi e implementei algumas aplicações internas durante meu vínculo com universidade.
+            Penso ter como característica, sempre buscar aprender e aplicar novas tecnologias, ser autodidata, ter uma comunicação efetiva e trabalhar com equipes multidisciplinares.
+          </p>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/josevictorp81'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">Sobre </h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon" />
+              <h3>Formação</h3>
+              <p>Bacharel em Ciência da Computação pela Universidade Estadual do Piauí(UESPI) - 2016-2022</p>
+            </div>
+
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experiência</h3>
+              <p>1 ano <br />Desenvolvedor Fullstack</p>
+              <p>
+                Projeto de iniciação e produção ciêntifica acadêmica - PIBIT, programa da Universidade Estadual do Piauí - UESPI, realizado no período de agosto de 2019 a julho de 2020, onde foi desenvovida uma ferramenta que auxilia pesquisadores na área de energia elétrica.
+              </p>
+            </div>
+
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+              <h3>Experiência</h3>
+              <p>3 meses <br />Desenvolvedor Fullstack - Estagiário</p>
+              <p>
+                Desenvolvedor Fullstack - Estagiário na Faculdade De Ciências Aplicadas Do Piauí (FACAPI), fazendo manutenção e criando nova features para o site interno da instituição.
+              </p>
+            </div>
+
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+              <h3>Experiência</h3>
+              <p>1 ano <br />Professor</p>
+              <p>
+                Professor do curso técnico de desenvolvimento de sistemas no CETI Prof. Francisco Luis de Oliveira.  
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <!-- <p class="section__text__p1">Explore My</p> -->
+      <h1 class="title">Tenologias</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tailwind CSS</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Vue.js</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Django REST</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <section id="projects">
+      <!-- <p class="section__text__p1">Browse My Recent</p> -->
+      <h1 class="title">Projetos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/dist.png" alt="Disturbance" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Disturbance</h2>
+            <p class="project-descriptio">
+              Disturbance é uma aplicação que tem como objetivo, auxiliar na geração e/ou simulação de Distúrbios de QEE, afim de demonstrar o comportamento na forma da onda durante sua ocorrência em um sistema elétrico real.
+            </p>
+            <div class="btn-container">
+              <a href="#" class="btn btn-color-2 project-btn">
+                Github
+              </a>
+              <a href="#" class="btn btn-color-2 project-btn">
+                Demo
+              </a>
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/security.png"
+                alt="Security"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Security</h2>
+            <p class="project-descriptio">
+              É um protótipo que visa ser uma aplicação usada nas escolas como uma ferramenta de vigilância, onde os próprios alunos podem denunciar ações feitas por outros alunos a fim impedir que uma ação se torne algo mais grave. A denuncia propicia os gestores da escola saberem o que seus alunos fazem quando não estão sendo observados pelos mesmos.
+            </p>
+            <div class="btn-container">
+              <a href="https://github.com/josevictorp81/security" target="_blank"
+                class="btn btn-color-2 project-btn"
+              >
+                Github
+              </a>
+              <a href="https://josevictorp81.github.io/security/'"
+                class="btn btn-color-2 project-btn"
+              >
+                Demo
+              </a>
+            </div>
+          </div>
+
+          
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/notes.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Notes</h2>
+            <p class="project-descriptio">
+              Este é uma aplicação que torna capaz a criação de cartões, com o objetivo de salvar anotações importantes para o usuário. A aplicação permite que o usuário informe suas idéias atravé de texto, ou através de aúdio, onde o mesmo será transcrito para texto, mediante a fala do usuário.
+            </p>
+            <div class="btn-container">
+              <a href="https://github.com/josevictorp81/notes"
+                class="btn btn-color-2 project-btn"
+              >
+                Github
+              </a>
+              <a href="https://notes-dun-omega.vercel.app/"
+                class="btn btn-color-2 project-btn"
+              >
+                Demo
+              </a>
+            </div>
+          </div>       
+
+        </div>
+      </div>
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/weather.png" alt="Project 3" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">WEATHER</h2>
+            <p class="project-descriptio">
+              Esta é uma aplicação tradicional que mostra o clima atual e futuro de uma cidade, dados que são consultados utilizando duas API's diferente, uma para o local e outra para o clima.
+            </p>
+            <div class="btn-container">
+              <a href="https://github.com/josevictorp81/weathervue" target="_blank" class="btn btn-color-2 project-btn">
+                Github
+              </a>
+              <a href="https://weathervue-six.vercel.app/" target="_blank" class="btn btn-color-2 project-btn">
+                Demo
+              </a>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/books.png" alt="Disturbance" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Books</h2>
+            <p class="project-descriptio">
+              Projeto desafio feito durante curso de html, css e JavaScript na Alura, onde deviamos replicar o layout de uma livraria disponibilizado no Figma.
+            </p>
+            <div class="btn-container">
+              <a href="https://github.com/josevictorp81/layout-books" class="btn btn-color-2 project-btn">
+                Github
+              </a>
+              <a href="https://josevictorp81.github.io/layout-books/" class="btn btn-color-2 project-btn">
+                Demo
+              </a>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/vagas.png" alt="Project 3" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">VAGAS</h2>
+            <p class="project-descriptio">
+              Este é um BOT de vagas, scraping que tem como objetivo buscar por vagas para desenvolvedores, estas, são listadas em alguns repositórios do GitHub.
+              Durante a busca, as informações obtidas são as seguintes: o título da vaga, o link para acessar no repositório e os requisitos para a vaga. Após a busca, essas informações são enviadas via webhook para canais específicos em um servidor no discord.
+            </p>
+            <div class="btn-container">
+              <a href="https://github.com/josevictorp81/VAGAS" target="_blank" class="btn btn-color-2 project-btn">
+                Github
+              </a>
+              <a href="#" target="_blank" class="btn btn-color-2 project-btn">
+                Demo
+              </a>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <section id="contact">
+      <!-- <p class="section__text__p1">Get in Touch</p> -->
+      <h1 class="title">Contato</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:josevictorp81@gmail.com">josevictorp81@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Tecnologias</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
